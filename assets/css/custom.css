@@ -1,41 +1,58 @@
-
-.hero_img{
-	margin-top: 170px;
+.hero_img {
+    margin-top: 170px;
 }
-.hero_img img{
+
+.hero_img img {
     width: 100%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
-.navbar-brand img{
-    width: 220px;
+
+.navbar-brand img {
+    width: 200px;
 }
-.hero-text-span{
+
+.hero-text-span {
     padding: 10px;
     font-size: 20px;
     padding-left: 25px;
     padding-right: 25px;
     font-style: italic;
     font-weight: bold;
-    background: rgb(255,170,23);
+    background: rgb(255, 170, 23);
     color: white;
     border-radius: 30px;
+    display: block;
+    max-width: max-content;
 }
-.start-trading-btn{
+
+.start-trading-btn {
     padding: 10px;
     /* font-size: 20px; */
     padding-left: 25px;
     padding-right: 25px;
-    background: rgb(255,170,23);
+    background: rgb(255, 170, 23);
     color: white;
 }
-.getStartedBtn_center{
+
+.getStartedBtn_center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 @media screen and (max-width: 991px) {
-    .hero_img{
+    .hero_img {
         margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand img {
+        width: 170px;
+    }
+
+    .hero-text-span {
+        font-size: 16px;
     }
 }

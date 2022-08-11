@@ -18,6 +18,7 @@
     font-weight: bold;
     background: rgb(255,170,23);
     color: white;
+    border-radius: 30px;
 }
 .start-trading-btn{
     padding: 10px;
@@ -26,6 +27,11 @@
     padding-right: 25px;
     background: rgb(255,170,23);
     color: white;
+}
+.getStartedBtn_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (max-width: 991px) {
     .hero_img{
